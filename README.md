@@ -1,7 +1,7 @@
 # Ansible Role for uGet
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-uget.svg)](https://travis-ci.com/alvistack/ansible-role-uget)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-uget.svg)](https://github.com/alvistack/ansible-role-uget)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-uget.svg)](https://github.com/alvistack/ansible-role-uget/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-uget.svg)](https://github.com/alvistack/ansible-role-uget/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.uget-blue.svg)](https://galaxy.ansible.com/alvistack/uget)
 
