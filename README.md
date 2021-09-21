@@ -1,5 +1,7 @@
 # Ansible Role for uGet
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-uget/master)](https://gitlab.com/alvistack/ansible-role-uget/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-uget.svg)](https://github.com/alvistack/ansible-role-uget/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-uget.svg)](https://github.com/alvistack/ansible-role-uget/blob/master/LICENSE)
