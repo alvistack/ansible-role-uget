@@ -14,17 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/uget-stable.gpg"
-    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xB6BA898CB0A11CD9F5EBAF338BE3EAB5EBE14A20"
-    id: "B6BA898CB0A11CD9F5EBAF338BE3EAB5EBE14A20"
-    state: "present"
-
-_apt_repository:
-  - filename: "uget-stable"
-    repo: "deb http://ppa.launchpad.net/plushuang-tw/uget-stable/ubuntu eoan main"
-    state: "present"
-
 _apt:
   - { state: "latest", name: "aria2" }
   - { state: "latest", name: "uget" }
