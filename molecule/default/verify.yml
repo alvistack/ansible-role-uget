@@ -20,6 +20,7 @@
   become: true
   tasks:
     - name: uget-gtk --version
-      ansible.builtin.command: uget-gtk --version
+      ansible.builtin.command:
+        cmd: uget-gtk --version
       register: result
       changed_when: result is not succeeded
