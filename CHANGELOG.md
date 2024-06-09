@@ -2,6 +2,7 @@
 
 ## 10.0.0 - TBC
 
+- Simplify and unify with flatpak
 - Support openSUSE Leap 15.6
 - Remove Fedora 38 support
 

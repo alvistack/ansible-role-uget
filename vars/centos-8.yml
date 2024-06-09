@@ -13,22 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_rpm_key:
-  - key: http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-8
-    fingerprint: 94E279EB8D8F25B21810ADF121EA45AB2F86D6A1
-    state: present
-
-_yum_repository:
-  - file: epel
-    name: epel
-    description: Extra Packages for Enterprise Linux 8 - $basearch
-    baseurl: http://dl.fedoraproject.org/pub/epel/8/Everything/$basearch
-    enabled: true
-    priority: "2"
-    module_hotfixes: true
-    gpgcheck: true
-    gpgkey: http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-8
-    state: present
-
-_yum: []

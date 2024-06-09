@@ -18,8 +18,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: uget-gtk --version
+    - name: flatpak info com.ugetdm.uGet
       ansible.builtin.command:
-        cmd: uget-gtk --version
+        cmd: flatpak info com.ugetdm.uGet
       register: result
       changed_when: result is not succeeded
