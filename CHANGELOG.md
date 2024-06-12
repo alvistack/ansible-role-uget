@@ -2,6 +2,9 @@
 
 ## 10.0.0 - TBC
 
+## 10.0.0 - 2024-06-12
+
+- Support Ansible community package 10.0.0
 - Simplify and unify with flatpak
 - Support openSUSE Leap 15.6
 - Remove Fedora 38 support
