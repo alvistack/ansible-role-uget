@@ -1,4 +1,4 @@
-# Ansible Role for uGet
+# Ansible Role for uGet with Flatpak
 
 ## 13.6.0 - TBC
 
